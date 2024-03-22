@@ -11,12 +11,6 @@ public class BlogMethods {
         blogPage.setClave("Crediviva");
         blogPage.clickLinkCrediviva();
         blogPage.clickLinkBlog();
-
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
+        
     }
 }
